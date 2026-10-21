@@ -1,0 +1,20 @@
+[project]
+name = "llm-text-classification"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "loknezmonzter", email = "175721383+lokNezMonzter@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "laya>=0.4.12",
+]
+
+[project.scripts]
+llm-text-classification = "llm_text_classification:main"
+
+[build-system]
+requires = ["uv_build>=0.12.22,<0.13.0"]
+build-backend = "uv_build"
